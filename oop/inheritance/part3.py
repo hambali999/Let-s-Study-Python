@@ -33,6 +33,10 @@ class SoftwareEngineer(Student):
     def debug(self):
         print("I am debugging !")
 
+    #OVERRIDING FUNCTION
+    def working(self):
+        print(f"{self.name} am debugging")
+
 #child
 class Designer(Student):
     def __init__(self, name, age, major): #here we must give all the values!
@@ -41,6 +45,10 @@ class Designer(Student):
     
     def design(self):
         print("I am drawing! SHUSH")
+    
+    #OVERRIDING FUNCTION
+    def working(self):
+        print(f"{self.name} am drawing")
 
 
 # Initializing the objects
