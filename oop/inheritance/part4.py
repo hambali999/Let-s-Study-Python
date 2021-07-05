@@ -21,5 +21,5 @@ class Artist(Student):
 student1 = SoftwareEngineer("John", 21, "Computer School", 'Software Engineer')
 student2 = Artist("Jake", 25, "Art School", 'Artist')
 
-print(student1.name)
+print(f"Whats up peeps, my name is {student1.name} and i am {student1.age}. I am currently attending {student1.school} as a {student1.role}")
         
