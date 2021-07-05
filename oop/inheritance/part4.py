@@ -23,3 +23,4 @@ student2 = Artist("Jake", 25, "Art School", 'Artist')
 
 print(f"Whats up peeps, my name is {student1.name} and i am {student1.age}. I am currently attending {student1.school} as a {student1.role}")
         
+print(f"Whats up peeps, my name is {student2.name} and i am {student2.age}. I am currently attending {student2.school} as a {student2.role}")
