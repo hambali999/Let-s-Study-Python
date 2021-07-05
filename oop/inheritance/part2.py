@@ -21,14 +21,16 @@ class Student():
         else:
             return 'IM STILL YOUNG HELLO'
 
+#child
 class SoftwareEngineer(Student):
-    def __init__(self, name, age, major):
-        super().__init__(name, age) #DONT PUT SELF
+    def __init__(self, name, age, major): #here we must give all the values!
+        super().__init__(name, age) #DONT PUT SELF get the values from the parent class
         self.major = major
 
+#child
 class Designer(Student):
-    def __init__(self, name, age, major):
-        super().__init__(name, age) #DONT PUT SELF
+    def __init__(self, name, age, major): #here we must give all the values!
+        super().__init__(name, age) #DONT PUT SELF get the values from the parent class
         self.major = major
 
 
