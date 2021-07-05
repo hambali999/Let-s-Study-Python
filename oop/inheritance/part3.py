@@ -21,6 +21,9 @@ class Student():
         else:
             return 'IM STILL YOUNG HELLO'
 
+    def working(self):
+        print("i am working leh...")
+
 #child
 class SoftwareEngineer(Student):
     def __init__(self, name, age, major): #here we must give all the values!
@@ -50,12 +53,15 @@ student3 = Designer("Elon", 40, "Art")
 
 print(f"Hi my name is {student1.name} and my age is {student1.age}, I majored in {student1.major}")
 student1.debug()
+student1.working()
 
 print(f"Hi my name is {student2.name} and my age is {student2.age}, I majored in {student2.major}")
 student2.design()
+student2.working()
 
 print(f"Hi my name is {student3.name} and my age is {student3.age}, I majored in {student3.major}")
 student3.design()
+student3.working()
 
 
 
