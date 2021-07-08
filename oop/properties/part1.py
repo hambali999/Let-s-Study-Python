@@ -22,4 +22,5 @@ print(student1.name)
 
 
  #why do we it do we this way? : this should applies it in encapsulation principle
- 
+
+ #getter and setter method which is the only way we can access it from the outside
