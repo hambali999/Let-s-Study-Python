@@ -33,7 +33,6 @@ class Name():
         salutation = 'Mr.' if self.__gender.lower() == 'm' else 'Ms.'
         return f'{salutation} {self.__lastName} {self.__firstName} {self.__middleName}'
 
-
     def getInitials(self):
         return f'{self.__firstName[0]}. {self.__middleName[0]}. {self.__lastName}'
 
