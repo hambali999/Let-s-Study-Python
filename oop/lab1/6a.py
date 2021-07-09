@@ -29,7 +29,7 @@ toDo.addToDo('Bring passport')
 toDo.addToDo('Change money')
 toDo.addToDo('Bring medicine')
 toDo.displayToDoList()
-toDo.deleteToDoItem(1)
+toDo.deleteToDoItem(2)
 toDo.displayToDoList()
 
 

@@ -7,5 +7,10 @@ string = 'Hambali'
 # for i in string:
 #     print(i)
 
-for idx, val in enumerate(string):
-    print(idx, val)
+# for idx, val in enumerate(string):
+#     print(idx, val)
+
+
+print(type(string))
+
+print(5 ** 3)
