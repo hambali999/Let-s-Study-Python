@@ -52,7 +52,7 @@ class BankAccount():
         return False
 
     def __str__(self):
-        return f'accoundId: {self.__accountId} balance: ${self.__balance:,.2f}'
+        return f'accoundId: {self.__accountId} balance: ${self.__balance:.2f}'
 
 
 

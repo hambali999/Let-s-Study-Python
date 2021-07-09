@@ -280,7 +280,7 @@ def q4():
 class Phone:
     __notAssignHolder = 0
 
-    def __init__(self, phone):
+    def __init__(self, phone):  
         self.__phone = phone
         self.__dialList = [type(self).__notAssignHolder] * 10
 
