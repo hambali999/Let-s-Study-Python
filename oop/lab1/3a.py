@@ -62,3 +62,5 @@ point1.move(10,10)
 print(point1.x, point1.y)
 
 print(point1.__str__())
+
+print(point1.quadrant())
