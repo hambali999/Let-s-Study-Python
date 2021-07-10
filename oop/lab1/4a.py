@@ -1,6 +1,6 @@
 
 
-class BankAccount():
+class BankAccount:
     def __init__(self, accountId, pin, balance = 100):
         self.__accountId = accountId
         self.__pin = pin
