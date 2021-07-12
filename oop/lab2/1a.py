@@ -45,12 +45,12 @@ class Passenger:
     def __str__(self):
         return f'Name: {self._name} Flight: {self._flight}'
 
-flight = Flight('SQ1', 'LA', datetime(2019, 3, 30, 4, 15)) #yyyy, d, mm, - hh, mm
-p1 = Passenger('p1', flight)
-p2 = Passenger('p2', flight)
-print(p1.__str__()) #same as just print(p1)
+flight = Flight('SQ1', 'LA', datetime(2019, 3, 30, 4, 15))  #yyyy, d, mm, - hh, mm
+p1 = Passenger('p1', flight)    #initialise 'flight object' to the passenger
+p2 = Passenger('p2', flight)    #initialise 'flight object' to the passenger
+print(p1.__str__())     #same as just print(p1)
 print(p2)
 flight.departureDate = datetime(2019, 3, 29, 15, 25)
 print(p1)
 print(p2)
-print(flight)
+# print(flight)
