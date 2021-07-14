@@ -25,13 +25,41 @@ def main():
         if stripped_line == '0':
             noRains += 1
 
-    print(values)
-    print(max(values))
+    # print(values)
+    # print(max(values))
+    highestRainfall = max(values)
         
     averageRainfall = totalRainfall/noOfRainfall
     print(f"Rainfall Summary")    
     print(f"Average rainfall {averageRainfall:.2f}mm")
     print(f"No of days with no rain {noRains} days")
+    print(f"Highest rainfall recorded {highestRainfall}mm")
+
+# main()
 
 
-main()
+#BETTER & CLEANER
+#ALTERNATIVE METHOD BY LECTURER
+
+import random
+def writeFile():
+    
+    fout = open("rainfall.dat", "r") #parameters: filename, mode("a","r","w")
+    values = []
+    for eachline in fout:
+        num = float(eachline) #turns eachline of 'string' to 'float' as it contains decimal points
+        values.append(num)
+        #end loop
+    largest=max(values)
+    average=(sum(values)/len(values))
+    noRf = values.count(0)
+            
+    print("Rainfall Summary")
+    print(f"Average rainfall {average:.2f}mm")
+    print(f"No of days with no rain {noRf} days")
+    print(f"Highest rainfall recorded {largest:.1f}mm")
+        
+    #end for loop
+    fout.close()
+
+writeFile()
